@@ -1,0 +1,40 @@
+:root {
+  /* Palette — warm paper + ink + electric blue accent */
+  --color-surface: oklch(97.5% 0.008 85);
+  --color-surface-raised: oklch(99.5% 0.004 85);
+  --color-ink: oklch(21% 0.02 265);
+  --color-ink-soft: oklch(42% 0.015 265);
+  --color-accent: oklch(55% 0.22 262);
+  --color-accent-soft: oklch(93% 0.045 262);
+  --color-lime: oklch(88% 0.19 125);
+  --color-amber: oklch(85% 0.13 85);
+  --color-border: oklch(85% 0.012 85);
+  --color-ink-inverse: oklch(97% 0.008 85);
+
+  /* Type scale */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, system-ui, sans-serif;
+  --text-base: clamp(1rem, 0.94rem + 0.3vw, 1.125rem);
+  --text-sm: 0.875rem;
+  --text-lg: clamp(1.15rem, 1.05rem + 0.5vw, 1.4rem);
+  --text-h2: clamp(2rem, 1.4rem + 3vw, 3.5rem);
+  --text-hero: clamp(2.8rem, 1.2rem + 7vw, 6.5rem);
+
+  /* Rhythm */
+  --space-section: clamp(4.5rem, 3rem + 6vw, 9rem);
+  --space-gutter: clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
+  --container: 72rem;
+
+  /* Motion */
+  --duration-fast: 160ms;
+  --duration-normal: 420ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Depth */
+  --shadow-card: 0 1px 2px oklch(21% 0.02 265 / 0.06), 0 8px 24px oklch(21% 0.02 265 / 0.08);
+  --shadow-pop: 0 2px 4px oklch(21% 0.02 265 / 0.08), 0 16px 40px oklch(21% 0.02 265 / 0.14);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+}
